@@ -25,8 +25,8 @@ gray_image = np.asarray(gray_image)
 #  apply otsu theshilding
 threshold = threshold_otsu(gray_image)
 
-# threshold the image
-segmented_image = gray_image*(gray_image > threshold)
+# Pixels with intensity greater than the "threshold" are kept.
+segmented_image = 255*(gray_image > threshold)
 
 # saving the image
 cv2.imwrite("Segmentation/Data/otsu_output.png", segmented_image)

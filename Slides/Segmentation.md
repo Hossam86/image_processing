@@ -1,4 +1,3 @@
-
 ---
 marp: true
 ---
@@ -36,7 +35,7 @@ nbins(optionl): number of bins that should be considered to calculate the histog
 ```
 
 # Otsu's draw backs:
-very mush dependant on image pixel values so it may not segment images with shadows well (see example of spin wheel in repo)
+very dependant on image pixel values so it may not segment images with shadows well (see example of spin wheel in repo)
 
 
 

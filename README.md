@@ -1,1 +1,1 @@
-# Image Processing and Acquisition using Python
+# Image processing and acquisition using python
